@@ -1,0 +1,16 @@
+application:
+  http:
+    authTokenHeaderName: ApiKey
+    apiKey: 329e225d-1d37-4a7e-8d95-3e7c5e623ffd
+
+useless.facts.client:
+  baseUrl: https://uselessfacts.jsph.pl/
+  numberOfRandomUselessFacts: 1000
+
+fact.cache:
+  cleanUpPeriodInSeconds: 60000
+  expiryTimePeriodInMillis: 60000
+
+yandex.translate:
+  baseUrl: https://translate.yandex.net/api/v1.5/tr/translate
+  apiKey: trnsl.1.1.20190930T180226Z.c02ee185a8748bbb.37565fbad00a19a9e0bd095493ef45e08585ba69
